@@ -4,6 +4,7 @@
   "description": "trillo app",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
@@ -15,6 +16,7 @@
   },
   "author": "Jonas",
   "license": "ISC",
+  "homepage": "https://donewasting.github.io/Trillo",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
